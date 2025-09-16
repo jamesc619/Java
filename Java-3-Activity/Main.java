@@ -13,7 +13,7 @@ class Main {
 
    System.out.println("123 Very Real Street");
 
-   System.out.println("James Choy, 123 Very Real Street");
+   System.out.println("James Choy\n123 Very Real Street");
 
   
   }
