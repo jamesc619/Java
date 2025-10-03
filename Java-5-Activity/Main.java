@@ -78,8 +78,8 @@ class Main {
 */ 
     double b = 5;
     double h = 4;
-    double area = (0.5*b*h);
-    System.out.println(area);
+    double y = (0.5*b*h);
+    System.out.println(y);
 
 /*  
     **** Bonus Challenge ****:
