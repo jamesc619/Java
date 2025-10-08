@@ -9,9 +9,11 @@ class Main {
     System.out.println( discount_rate(100.22) );   
     discount_rate(101);
     // Call the function honors()
+    System.out.println( honors(4.0) );  
     honors(4.0);
    
     // Call the function shortSize()
+    System.out.println(shortSize(30));
     shortSize(30);
     
   }
