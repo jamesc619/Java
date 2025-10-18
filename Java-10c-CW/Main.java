@@ -49,4 +49,12 @@ class Main {
     
    }
 
+  boolean tooSmall(double radius){
+    double A = (Math.PI*Math.pow(radius,2));
+    if(A<47){
+      return true;
+    }else{
+      return false;
+    }
+  }
 }
