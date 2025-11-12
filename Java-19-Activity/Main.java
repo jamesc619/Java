@@ -10,7 +10,7 @@ class Main {
   void init(){
     rollDice();
     lotto();
-    diceDistribution(5);
+    diceDistribution(6769);
     additionTutor();
     mathQuiz();
 
@@ -86,7 +86,7 @@ void rollDice(){
       if(answer==sum){
         System.out.println("Correct!");
       }else{
-        System.out.println("Incorrect!");
+        System.out.println("Incorrect! Correct answer is "+ sum );
       }
     }
 
@@ -101,7 +101,7 @@ void rollDice(){
       int sum = num3 + num4;
       int difference = num3-num4;
       int product = num3*num4;
-      double quotient = (num3*(1.0))/(num4*(1.0));
+      int quotient = num3/num4;
       int answer = 0;
       int operation = (int)(Math.random()*4);
        if(operation==0){
@@ -110,7 +110,7 @@ void rollDice(){
          if(answer==sum){
           System.out.println("Correct!");
          }else{
-          System.out.println("Incorrect!");
+          System.out.println("Incorrect! Correct answer is "+ sum );
          }
        }else if(operation==1){
        System.out.println(num3+" - "+num4+" = ?");
@@ -118,7 +118,7 @@ void rollDice(){
          if(answer==difference){
           System.out.println("Correct!");
          }else{
-          System.out.println("Incorrect!");
+          System.out.println("Incorrect! Correct answer is "+ difference );
          }
         }else if(operation==2){
        System.out.println(num3+" * "+num4+" = ?");
@@ -126,15 +126,15 @@ void rollDice(){
          if(answer==product){
           System.out.println("Correct!");
          }else{
-          System.out.println("Incorrect!");
+          System.out.println("Incorrect! Correct answer is "+ product);
          }
         }else if(operation==3){
-       System.out.println(num3+" / "+num4+" = ?");
+       System.out.println(num3+" / "+num4+" = ? (Using Integer Division)");
        answer = Input.readInt();
          if(answer==quotient){
           System.out.println("Correct!");
          }else{
-          System.out.println("Incorrect!");
+          System.out.println("Incorrect! Correct answer is "+ quotient );
          }
         }
       
