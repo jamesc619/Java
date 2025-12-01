@@ -18,7 +18,7 @@ class Main {
         String[] names = {"Haotian","ryan", "Asael", "Leonardo", "Steven"};
         System.out.println("2nd: "+names[1]);
         System.out.println("length: "+names.length);
-        System.out.println("last: "+names[(names.length)-1]);
+        System.out.println("last: "+names[names.length-1]);
         showArray(names);
         double[] tempC = {0.0, 30.0, 37.0, 100.0};
         showArrayDoubles(convertTempCtoF(tempC));
