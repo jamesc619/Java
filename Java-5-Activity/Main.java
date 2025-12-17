@@ -57,8 +57,8 @@ class Main {
 */
     double A = 5;
     double x = 4;
-    double why = (A/(x+1));
-    System.out.println(why);
+    double y = (A/(x+1));
+    System.out.println(y);
 
 /*  
     Challenge 5:
@@ -68,8 +68,8 @@ class Main {
  // **** NOTE **** The variable y is already declared above so we don't need to re-declare it.
     double x1 = 5;
     double A1 = 4;
-    double why2 = ((2*x1)*(x1+1)*(-x1/2))/A1;
-    System.out.println(why2);
+    double y1 = ((2*x1)*(x1+1)*(-x1/2))/A1;
+    System.out.println(y1);
 
 /*  
     Challenge 6:
@@ -78,8 +78,8 @@ class Main {
 */ 
     double b = 5;
     double h = 4;
-    double y = (0.5*b*h);
-    System.out.println(y);
+    double y2 = (0.5*b*h);
+    System.out.println(y2);
 
 /*  
     **** Bonus Challenge ****:
