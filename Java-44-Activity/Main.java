@@ -3,6 +3,8 @@ import java.sql.*;
 /*
 Use the chinook database to write the SQL statements to produce the info asked (using chinookDBdiagram.jpg to decide which tables contain the required info and their relationships)
 */
+//java -cp sqlite-jdbc-3.23.1.jar: Main
+
 class Main {
 
  public static void main(String[] args)throws IOException{
