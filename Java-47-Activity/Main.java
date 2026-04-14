@@ -43,7 +43,7 @@ class Main {
       server.createContext("/customers", new RouteHandler(db, sql));
     
       // Problem 3: Create a route called 'employees' that gets Employee ID and Title of the first 5 entries in the Employees table.
-      sql = "select EmployeeID, Title from employees limit 5;";
+      sql = "select * from employees limit 5;";
       server.createContext("/employees", new RouteHandler(db, sql));
     
       // Problem 4: Create a route called 'albumsinfo' that gets the albums with the track information and artists information. (Limit to 5 records)
@@ -62,3 +62,4 @@ class Main {
       
   }    
 }
+//java -cp sqlite-jdbc-3.23.1.jar: Main
